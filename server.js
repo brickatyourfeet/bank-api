@@ -10,7 +10,7 @@ app.use(bodyParser.json())
 
 const routes = require('./routes/routes.js')
 
-//app.use('/', routes)
+app.use('/', routes)
 
 
 

@@ -1,0 +1,25 @@
+//use mongoose and make this a model with required fields?
+// let user = [{
+//   id: uuid(),
+//   name: 'Seed',
+//   bank: 'Seed Bank',
+//   accountDescription: 'Seed type of account',
+//   transactions: [{
+//     id: uuid(),
+//     title: 'Seed mcdonalds',
+//     amount: 55,
+//     pending: true
+//   }, {
+//     id: uuid(),
+//     title: 'Seed gym',
+//     amount: 12,
+//     pending: false
+//   }]
+// }]
+//
+// //make new users , save to file
+//
+// console.log(user)
+//
+// let accountsDb = JSON.stringify(user)
+// fs.writeFileSync('accountsDb.json', accountsDb)
